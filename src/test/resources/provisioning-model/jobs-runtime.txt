@@ -40,6 +40,6 @@
   # In general a queue should only be activated on an instance if the
   # instance is configured with consumers for that queue.
   # If consumers are not present, then the queue will dequeue and force a retry
-  # of each item it can process untill the retry limit is reached.
+  # of each item it can process until the retry limit is reached.
   org.apache.sling.jobs.impl.JobQueueConsumerFactory
     queue-name="org/apache/sling/jobs/it/services"
